@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel System Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+                <div class="logo">
+                    <h1>Ts Hotel</h1>
+                    <p>HOTEL BOOKING</p>
+                </div>
+                <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Rooms</li>
+                        <li>Resto&Bar</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                </ul>
+        </nav>
+        <div class="content">
+            <div class="text">
+                <p>ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!</p>
+                <h1>Most Relaxing Place</h1>
+            </div>
+            <div class="btn">
+                <button class="tour-btn">Take a Tour </button>
+                <button class="learn-btn">Learn More </button>
+            </div>
+        </div>
+      
+            <form  method="post" action="#">
+                <div>
+                    <label for="checkin">CHECK-IN</label>
+                    <br>
+                    <input type="date" id="checkin">
+                </div>
+                <div>
+                    <label for="checkout">CHECK-OUT</label>
+                    <br>
+                    <input type="date" id="checkout">
+                </div>
+                <div>
+                    <label for="room">ROOMS</label>
+                    <br>
+                    <select id="room" name="room">
+                        <option value="suite">Suite</option>
+                        <option value="family room">Family Room</option>
+                        <option value="classic room">Classic Room</option>
+                        <option value="superior room">Superior Room</option>
+                        <option value="luxury room">Luxury Room</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="guest">GUEST</label>
+                    <br>
+                    <select id="guest" name="guest">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4+">4+</option>
+                    </select>
+                </div>
+                <button type="submit">CHECK AVAILABILITY</button>
+            </form>
+    </div>
+</body>
+    <!-- javascript  -->
+    <script src="/script.js"></script>
+</html>

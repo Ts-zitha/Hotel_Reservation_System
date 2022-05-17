@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Nunito', sans-serif;
+    /* font-size: 18px; */
+    line-height: 1.8;
+    /* font-weight: 400; */
+    color: #fff;
+}
+
+.header{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/backgorund.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-blend-mode: darken;
+    z-index: 0;    
+    opacity: 100;
+
+}
+nav{
+    width: 90%;
+    height: 10vh;
+    padding: 2rem;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logo{
+    text-align: center;
+}
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+ul>li{
+    cursor: pointer;
+}
+.content{
+    margin-top: 4rem;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    font-size: 90px;
+}
+.btn{
+    text-align: center;
+
+}
+.btn button{
+    margin: .3rem;
+    /* padding: .5rem 2rem; */
+    padding: 13px 36px;
+    outline: none;
+
+}
+.tour-btn{
+    background: #c5a880 !important;
+    border: 1px solid #c5a880 !important;
+    color: #fff !important;
+}
+.learn-btn{
+    border: 1px solid rgba(255,255,255,.7)!important;
+    background: transparent!important;
+    color: #fff!important;
+}
+input{
+    background: gray;
+    padding: .4rem;
+}
+
+form{
+    margin-top: 6rem;
+    background: black;
+    width: 80%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+form select{
+    background-color: gray;
+    padding: .4rem;
+}
+form div{
+    text-align: center;
+}
+
+form button{
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 1.3rem 2rem;
+    position: relative;
+    right: -70px;
+    color: black;
+}
